@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+.top-head {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top-sec {
+    height: 60px;
+    width: 100vw;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.main-lg {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.boundless {
+    color: #ffffff;
+    font-size: 8vw;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    margin-top: 46vh;
+    margin-bottom: 4vh;
+    line-height: 8vw;
+}
+
+.set-btn {
+    position: relative;
+    z-index: 3;
+    width: 140px;
+    height: 40px;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #171d22;
+    margin-right: 40px;
+    border: none;
+}
+
+.set-btn:hover {
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.icon-1 {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.dest-p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-right: 8vw;
+    margin-left: 20px;
+}
+
+.bot-btn {
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    border-radius: 1px;
+    border: 1px solid #ffffff;
+    margin-bottom: 4vw;
+}
+
+.bot-btn:hover {
+    background-color: #ffffff;
+    color: #171d22;
+    font-weight: bold;
+}
+
+.scrl-a {
+    color: #ffffff;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.frst-sec {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+
+.main-cont {
+    z-index: 0;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.cont-p {
+    width: 80vw;
+    color: #343b40;
+    font-family: "EB Garamond", serif;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.cont-h {
+    font-family: "Play", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #171d22;
+    margin-bottom: 20px;
+}
+
+.mid-vid {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.scnd-sec {
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 8vh;
+    padding-top: 10vh;
+}
+
+.awake-h1 {
+    color: rgb(3, 44, 58);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.im1 {
+    background-image: url("https://images.pexels.com/photos/3994380/pexels-photo-3994380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    width: 28vw;
+    height: 65vh;
+    background-size: cover;
+}
+
+.im2 {
+    background-image: url("https://images.pexels.com/photos/4275890/pexels-photo-4275890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    width: 28vw;
+    height: 65vh;
+    background-size: cover;
+}
+
+.im3 {
+    background-image: url("https://images.pexels.com/photos/16325033/pexels-photo-16325033/free-photo-of-snow-on-mountain-peak-near-water-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    width: 28vw;
+    height: 65vh;
+    background-size: cover;
+}
+
+.awk-bit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hvr {
+    color: #ffffff;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 200;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hvr:hover {
+    background-color: rgba(3, 18, 20, 0.333);
+}
+
+.vm-btn {
+    background-color: black;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vm-btn:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.btn-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+}
